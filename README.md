@@ -1,9 +1,5 @@
-Here’s the **README.md** file with all the formulas written in **LaTeX** for clear visualization and explanation of every important concept used in the code. This will help users understand the mathematical foundations behind the app.
 
----
-
-```markdown
-# Financial Concepts Visualizer
+# Martingale and Conditional Expectation
 
 ![Streamlit](https://img.shields.io/badge/Streamlit-FF4B4B?style=for-the-badge&logo=Streamlit&logoColor=white)
 ![Python](https://img.shields.io/badge/Python-3.8%2B-blue?style=for-the-badge&logo=python)
@@ -38,6 +34,7 @@ An interactive Streamlit app to visualize and explore key financial concepts, in
 ### 1. Martingale Properties
 
 A stochastic process \( \{W_t\}_{t \geq 0} \) is a **martingale** if:
+
 $$
 \mathbb{E}[W_t | \mathcal{F}_s] = W_s \quad \text{for } 0 \leq s < t
 $$
@@ -180,15 +177,7 @@ This project is licensed under the MIT License. See [LICENSE](LICENSE) for detai
 
 ---
 
-## Screenshots
 
-![Martingale Demo](screenshots/martingale.png)
-*Martingale Demonstration: Nested Simulation*
-
-![Option Pricing](screenshots/option_pricing.png)
-*Conditional Expectation in Option Pricing*
-
----
 
 ## Contact
 
@@ -197,19 +186,7 @@ For questions or feedback, please open an issue or contact the maintainer.
 
 ---
 
-### Key Additions:
-1. **LaTeX Formulas**:
-   - All mathematical concepts are written in LaTeX for clear visualization.
-   - Includes definitions, equations, and derivations for martingales, Brownian motion, and option pricing.
 
-2. **Detailed Explanations**:
-   - Each formula is accompanied by a concise explanation of its significance in the context of the app.
-
-3. **Structured README**:
-   - Organized into sections for easy navigation.
-   - Includes installation instructions, usage examples, and contribution guidelines.
-
-4. **Visual Aids**:
    - Placeholder screenshots to illustrate the app's functionality.
 
 This README file provides a comprehensive understanding of the app's mathematical foundations while maintaining a user-friendly and professional format.
