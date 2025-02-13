@@ -31,7 +31,7 @@ An interactive Streamlit app to visualize and explore key financial concepts, in
 ## Mathematical Foundations
 
 ### 1. Martingale Properties
-
+"""
 A stochastic process \( \{W_t\}_{t \geq 0} \) is a **martingale** if:
 $$
 \mathbb{E}[W_t | \mathcal{F}_s] = W_s \quad \text{for } 0 \leq s < t
@@ -103,7 +103,7 @@ $$
   $$
   \sigma_t = \sigma_0 e^{J_t}, \quad J_t \sim \mathcal{N}(\mu_J, \sigma_J^2)
   $$
-
+"""
 ---
 
 ## Installation
