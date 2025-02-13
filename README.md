@@ -1,3 +1,8 @@
+Here’s the **README.md** file with all the formulas written in **LaTeX** for clear visualization and explanation of every important concept used in the code. This will help users understand the mathematical foundations behind the app.
+
+---
+
+```markdown
 # Financial Concepts Visualizer
 
 ![Streamlit](https://img.shields.io/badge/Streamlit-FF4B4B?style=for-the-badge&logo=Streamlit&logoColor=white)
@@ -112,3 +117,99 @@ $$
    ```bash
    git clone https://github.com/your-username/Financial-Concepts-Visualizer.git
    cd Financial-Concepts-Visualizer
+   ```
+
+2. Install dependencies:
+   ```bash
+   pip install -r requirements.txt
+   ```
+
+3. Run the Streamlit app:
+   ```bash
+   streamlit run app.py
+   ```
+
+---
+
+## Usage
+
+1. **Select a Concept**:
+   - Choose between **Martingale Properties** or **Conditional Expectation** using the radio buttons.
+
+2. **Adjust Parameters**:
+   - Use sliders to adjust parameters like number of paths, time steps, strike price, and volatility.
+
+3. **Explore Visualizations**:
+   - View real-time plots and simulations to understand the concepts.
+
+4. **Read Theory**:
+   - Refer to the mathematical explanations and formulas provided in LaTeX.
+
+---
+
+## Examples
+
+### Martingale Demonstration
+- **Simple Brownian Motion**:
+  - Adjust the number of paths and time \( t \) to observe the convergence of the sample mean to the expected value \( 0 \).
+
+- **Nested Simulation**:
+  - Visualize nested paths and verify the martingale property \( \mathbb{E}[W_t | \mathcal{F}_s] = W_s \).
+
+### Conditional Expectation in Option Pricing
+- Compare the convergence of Monte Carlo and conditional expectation methods for option pricing under stochastic volatility.
+
+---
+
+## Contributing
+
+Contributions are welcome! Please open an issue or submit a pull request for any improvements or bug fixes.
+
+---
+
+## License
+
+This project is licensed under the MIT License. See [LICENSE](LICENSE) for details.
+
+---
+
+## Acknowledgments
+
+- Inspired by financial mathematics and Monte Carlo methods.
+- Built with [Streamlit](https://streamlit.io) and [NumPy](https://numpy.org).
+
+---
+
+## Screenshots
+
+![Martingale Demo](screenshots/martingale.png)
+*Martingale Demonstration: Nested Simulation*
+
+![Option Pricing](screenshots/option_pricing.png)
+*Conditional Expectation in Option Pricing*
+
+---
+
+## Contact
+
+For questions or feedback, please open an issue or contact the maintainer.
+```
+
+---
+
+### Key Additions:
+1. **LaTeX Formulas**:
+   - All mathematical concepts are written in LaTeX for clear visualization.
+   - Includes definitions, equations, and derivations for martingales, Brownian motion, and option pricing.
+
+2. **Detailed Explanations**:
+   - Each formula is accompanied by a concise explanation of its significance in the context of the app.
+
+3. **Structured README**:
+   - Organized into sections for easy navigation.
+   - Includes installation instructions, usage examples, and contribution guidelines.
+
+4. **Visual Aids**:
+   - Placeholder screenshots to illustrate the app's functionality.
+
+This README file provides a comprehensive understanding of the app's mathematical foundations while maintaining a user-friendly and professional format.
