@@ -5,6 +5,10 @@
 ![Python](https://img.shields.io/badge/Python-3.8%2B-blue?style=for-the-badge&logo=python)
 ![License](https://img.shields.io/badge/License-MIT-green?style=for-the-badge)
 
+
+https://github.com/user-attachments/assets/31a6885a-af2d-4d24-8f03-1aefcd4580f8
+
+
 An interactive Streamlit app to visualize and explore key financial concepts, including **martingale properties** and **conditional expectation** in option pricing, using Monte Carlo simulations and mathematical theory.
 
 ---
